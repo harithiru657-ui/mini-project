@@ -1,0 +1,44 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: white;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card, .container {
+  background: #1e1e2f;
+  padding: 25px;
+  border-radius: 10px;
+  width: 320px;
+  text-align: center;
+}
+
+input, textarea {
+  width: 100%;
+  margin: 8px 0;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background: #ff9800;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+nav a {
+  margin: 10px;
+  color: #ff9800;
+  text-decoration: none;
+}
